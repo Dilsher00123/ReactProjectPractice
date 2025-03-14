@@ -1,0 +1,46 @@
+/* About.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 40px; /* Adds space between the navbar and button */
+  margin-bottom: 20px; /* Adds space between button and table */
+}
+
+.assets-list {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.assets-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.assets-list li {
+  background: #f5f5f5;
+  margin: 5px auto;
+  padding: 10px;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+/* Asset row background */
+.asset-row {
+  background-color: lightgreen;
+}
+
+/* Expense row background */
+.expense-row {
+  background-color: lightcoral;
+}
